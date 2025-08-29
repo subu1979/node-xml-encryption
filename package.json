@@ -1,0 +1,43 @@
+{
+  "name": "@subu1979/xml-encryption",
+  "version": "3.1.0",
+  "description": "XML Encryption library with enhanced security features and Node.js compatibility",
+  "devDependencies": {
+    "mocha": "^11.7.1",
+    "sinon": "^17.0.1"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auth0/node-xml-encryption.git"
+  },
+  "keywords": [
+    "xml",
+    "encryption",
+    "xmlenc",
+    "security",
+    "saml",
+    "nodejs"
+  ],
+  "author": "Matias Woloski (Auth0)",
+  "contributors": [
+    "Jose F. Romaniello <jfromaniello@gmail.com> (http://joseoncode.com)",
+    "Tommi Pisto <tommi@pistogroup.com> (http://pasm.pis.to)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "escape-html": "^1.0.3",
+    "xpath": "^0.0.34"
+  },
+  "files": [
+    "lib",
+    "package-lock.json"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
