@@ -9,7 +9,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/auth0/node-xml-encryption.git"
+    "url": "git+https://github.com/subu1979/node-xml-encryption.git"
   },
   "keywords": [
     "xml",
